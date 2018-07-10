@@ -1,0 +1,41 @@
+import requests
+from pprint import pprint
+import json
+
+class Restaurant:
+    name = ""
+    rating = 0
+
+
+class FoodRecommendationService:
+    api_key = 'CA2ee83TZpJ30w5RD5fIVymGMPYAGV77kDiU1zw7UzAuYem52gH5Vyk6SNi9YTLJ1m8UL5d20J7SJv6SVPe4iXmkw69w6grmRgPUTsUAg9gUqvmnDWSDXdV_atsGW3Yx'
+    url = 'https://api.yelp.com/v3/businesses/search'
+    headers = {'Authorization': 'Bearer ' + api_key}
+
+    def get_Restaurants_that_serve(self, food_catagory):
+        url_params = {'latitude': 44.975918, 'longitude':
+            -93.273079, 'radius': 2500, 'term': alias}
+        response = requests.get(self.url, params=url_params, headers=self.headers)
+        restaurants = []
+        for business in response.json()['businesses']:
+            restaurant = Restaurant()
+            restaurant.name = business['name']
+            restaurant.rating = business['rating']
+            restaurants.append(restaurant)
+
+        return restaurants
+
+print("Hey its lunch time!")
+
+alias = input('What are you hungry for today?')
+print('Wise choice', alias, 'it is!')
+
+print('----------------------\n')
+
+
+food_recomendation_service = FoodRecommendationService()
+
+restaurants = food_recomendation_service.get_Restaurants_that_serve(alias)
+
+for resturant in restaurants:
+    pprint(resturant.name + " :" + str(resturant.rating))

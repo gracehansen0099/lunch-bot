@@ -74,5 +74,12 @@
         "location": "SPS Tower",
         "description": "Decent food, OK happy hour",
         "recommendations": "Cheese burger...it's ok"
+    },
+    "Barrio": {
+        "skyway_access": "N",
+        "quick": "N",
+        "location": "Nicollet Mall",
+        "description": "Tapas and tacos and people watching",
+        "recommendations": "Tamales, sopes, guacamole... it's all delicioso"
     }
 }

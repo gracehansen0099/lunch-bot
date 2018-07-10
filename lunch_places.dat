@@ -61,18 +61,22 @@
         "description": "Build your own pizza, salads and pastas",
         "recommendations": "BBQ chicken on New York Style"
     },
-    "Get Sauced": {
+    "Hell's Kitchen": {
+        "skyway_access": "Y",
+        "quick": "N",
+        "sit-down": "Y",
+        "location": "80 S 9th St"
+        "description": "Sandwiches, burgers, and all day breakfast",
+        "recommendations": "Jucy Lucifer and homemade peanutbutter"
+        "breakfast": "Y",
+        "tags": "American",
+        "weighted_days": "Wednesday"
+    },
+    "Sasquatch Sandwiches": {
         "food_truck": "Y",
         "quick": "Y",
         "location": "Outside",
-        "description": "Really good BBQ sandwiches and tacos",
-        "recommendations": "BBQ Pulled Pork Sandwich"
-    },
-    "Tavern 333": {
-        "skyway_access": "Y",
-        "quick": "N",
-        "location": "SPS Tower",
-        "description": "Decent food, OK happy hour",
-        "recommendations": "Cheese burger...it's ok"
-    }
+        "description": "Amazing sandwiches and fries",
+        "recommendations": "Sasquatch sandwich and fries"
+        }
 }

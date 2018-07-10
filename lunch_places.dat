@@ -61,11 +61,12 @@
         "description": "Build your own pizza, salads and pastas",
         "recommendations": "BBQ chicken on New York Style"
         
+    },
     "BEP": {
         "skyway_access": "Y",
         "quick": "Y",
         "location": "Not sure, close to Road Bottom Brewery",
         "descriptions": "Vietnamese Goodness",
         "recommendations": Yes, please.
-    }
+    },
 }

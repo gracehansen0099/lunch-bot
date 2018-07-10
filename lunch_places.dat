@@ -60,19 +60,12 @@
         "location": "US Bank Building",
         "description": "Build your own pizza, salads and pastas",
         "recommendations": "BBQ chicken on New York Style"
-    },
-    "Get Sauced": {
-        "food_truck": "Y",
-        "quick": "Y",
-        "location": "Outside",
-        "description": "Really good BBQ sandwiches and tacos",
-        "recommendations": "BBQ Pulled Pork Sandwich"
-    },
-    "Tavern 333": {
+    }
+    "Key's Cafe": {
         "skyway_access": "Y",
         "quick": "N",
-        "location": "SPS Tower",
-        "description": "Decent food, OK happy hour",
-        "recommendations": "Cheese burger...it's ok"
+        "location": "Foshay Tower",
+        "description": "Hearty homestyle meals",
+        "recommendations": "Cinnamon rolls and caramel rolls"
     }
 }

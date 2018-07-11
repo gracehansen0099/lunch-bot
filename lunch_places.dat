@@ -60,7 +60,7 @@
         "location": "US Bank Building",
         "description": "Build your own pizza, salads and pastas",
         "recommendations": "BBQ chicken on New York Style"
-    }
+    },
     "Key's Cafe": {
         "skyway_access": "Y",
         "quick": "N",

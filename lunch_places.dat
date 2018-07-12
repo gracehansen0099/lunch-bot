@@ -61,6 +61,13 @@
         "description": "Build your own pizza, salads and pastas",
         "recommendations": "BBQ chicken on New York Style"
     },
+    "Dunn Brothers": {
+        "skyway_access": "Y", 
+        "quick": "Y", 
+        "location": "SPS Tower",
+        "description": "Coffee and a quick bite", 
+        "recommendations": "soup and bread!"
+    },
     "Key's Cafe": {
         "skyway_access": "Y",
         "quick": "N",

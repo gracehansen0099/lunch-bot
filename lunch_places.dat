@@ -67,5 +67,26 @@
         "location": "Foshay Tower",
         "description": "Hearty homestyle meals",
         "recommendations": "Cinnamon rolls and caramel rolls"
+    },
+    "Tavern 333": {
+        "skyway_access": "Y",
+        "quick": "N",
+        "location": "SPS Tower",
+        "description": "Decent food, OK happy hour",
+        "recommendations": "Cheese burger...it's ok"
+    },
+    "Barrio": {
+        "skyway_access": "N",
+        "quick": "N",
+        "location": "Nicollet Mall",
+        "description": "Tapas and tacos and people watching",
+        "recommendations": "Tamales, sopes, guacamole... it's all delicioso"
+    },
+    "BEP": {
+        "skyway_access": "Y",
+        "quick": "Y",
+        "location": "Not sure, close to Road Bottom Brewery",
+        "descriptions": "Vietnamese Goodness",
+        "recommendations": "Yes, please."
     }
 }

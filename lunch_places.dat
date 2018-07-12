@@ -81,8 +81,7 @@
         "location": "Nicollet Mall",
         "description": "Tapas and tacos and people watching",
         "recommendations": "Tamales, sopes, guacamole... it's all delicioso"
-    }
-    ,
+    },
     "BEP": {
         "skyway_access": "Y",
         "quick": "Y",

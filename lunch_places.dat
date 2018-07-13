@@ -65,9 +65,9 @@
         "skyway_access": "Y",
         "quick": "N",
         "sit-down": "Y",
-        "location": "80 S 9th St"
+        "location": "80 S 9th St",
         "description": "Sandwiches, burgers, and all day breakfast",
-        "recommendations": "Jucy Lucifer and homemade peanutbutter"
+        "recommendations": "Jucy Lucifer and homemade peanutbutter",
         "breakfast": "Y",
         "tags": "American",
         "weighted_days": "Wednesday"
